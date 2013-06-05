@@ -1,0 +1,167 @@
+#access a.dbrl-home {
+    float:left;
+    margin: 7px 8px 0 20px;
+    padding: 0;
+    line-height: 0;
+    width:38px;
+    opacity: 1;
+	border:none;
+}
+#access a.dbrl-home:hover { opacity: 0.9; }
+#access .dbrl-home img { width: auto;}
+
+#access {
+    background: #486b23; /* Old browsers */
+    background: -moz-linear-gradient(top,  #486b23 0%, #5a862c 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#486b23), color-stop(100%,#5a862c)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #486b23 0%,#5a862c 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #486b23 0%,#5a862c 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #486b23 0%,#5a862c 100%); /* IE10+ */
+    background: linear-gradient(top,  #486b23 0%,#5a862c 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#486b23', endColorstr='#5a862c',GradientType=0 ); /* IE6-9 */
+	clear: both;
+	display: block;
+	float: left;
+	margin: 0 auto;
+	width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+#access ul {
+    font-family: 'Kreon',serif;
+	font-size: 17px;
+    font-weight: 400;
+	list-style: none;
+	margin: 0 0 0 -0.8125em;
+	padding-left: 0;
+}
+#access li {
+	float: left;
+	position: relative;
+}
+#access a {
+	color: #FFF;
+	display: block;
+	line-height: 2.6em;
+	padding: 0 0.9em;
+	text-decoration: none;
+	border-right: 1px solid #486B23;
+}
+#access li:nth-of-type(1) a { border-left: 1px solid #486B23;}
+
+#access ul ul {
+	-moz-box-shadow: 0 3px 9px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.4);
+	box-shadow: 0 3px 9px rgba(0,0,0,0.4);
+	display: none;
+	float: left;
+	margin: 0;
+	position: absolute;
+	top: 2.6em;
+	left: 0;
+	width: 188px;
+	z-index: 99999;
+}
+#access ul ul ul {
+	left: 100%;
+	top: 0;
+}
+#access ul ul a {
+	border-bottom: 1px dotted #ddd;
+	border-right:none;
+	border-left:none;
+    font-size:15px;
+	font-weight: normal;
+	height: auto;
+	line-height: 1.4em;
+	padding: 10px 0 10px 15px;
+	width: 173px;
+}
+#access ul ul a,
+#access .current-menu-item {
+    background: #78AE41;
+    color: #FFF;
+}
+#access li:hover > a,
+#access ul ul :hover > a,
+#access a:focus {
+	background: #FFF;
+    color:#78AE41;
+}
+#access li:hover > a,
+#access a:focus {
+    background: #00567B;
+    background: #78AE41;
+    /*background: -moz-linear-gradient(top,  #004360 0%, #00567b 8%, #00567b 26%, #0079ad 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#004360), color-stop(8%,#00567b), color-stop(26%,#00567b), color-stop(100%,#0079ad));
+    background: -webkit-linear-gradient(top,  #004360 0%,#00567b 8%,#00567b 26%,#0079ad 100%);
+    background: -o-linear-gradient(top,  #004360 0%,#00567b 8%,#00567b 26%,#0079ad 100%);
+    background: -ms-linear-gradient(top,  #004360 0%,#00567b 8%,#00567b 26%,#0079ad 100%);
+    background: linear-gradient(top,  #004360 0%,#00567b 8%,#00567b 26%,#0079ad 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004360', endColorstr='#0079ad',GradientType=0 ); */
+	color: #FFF;
+}
+#access ul li:hover > ul {
+	display: block;
+}
+/*#access .current-menu-item > a,
+#access .current-menu-ancestor > a,
+#access .current_page_item > a,
+#access .current_page_ancestor > a {
+	font-weight: bold;
+}*/
+
+/* Search Form */
+#branding #searchform {
+	position: absolute;
+	bottom: 20px;
+	right: 7.6%;
+	text-align: right;
+}
+#branding #searchform div {
+	margin: 0;
+}
+#branding #s {
+	float: right;
+	-webkit-transition-duration: 400ms;
+	-webkit-transition-property: width, background;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-duration: 400ms;
+	-moz-transition-property: width, background;
+	-moz-transition-timing-function: ease;
+	-o-transition-duration: 400ms;
+	-o-transition-property: width, background;
+	-o-transition-timing-function: ease;
+	width: 72px;
+}
+#branding #s:focus {
+	background-color: #f9f9f9;
+	width: 196px;
+}
+#branding #searchsubmit {
+	display: none;
+}
+#branding .only-search #searchform {
+	top: 5px;
+	z-index: 1;
+}
+#branding .only-search #s {
+	background-color: #666;
+	border-color: #000;
+	color: #222;
+}
+#branding .only-search #s,
+#branding .only-search #s:focus {
+	width: 85%;
+}
+#branding .only-search #s:focus {
+	background-color: #bbb;
+}
+#branding .with-image #searchform {
+	top: auto;
+	bottom: -27px;
+	max-width: 195px;
+}
+#branding .only-search + #access div {
+	padding-right: 205px;
+}
+

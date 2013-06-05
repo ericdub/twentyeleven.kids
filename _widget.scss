@@ -1,0 +1,175 @@
+.widget-area {
+	font-size: 12px;
+}
+.widget {
+	clear: both;
+	margin: 0 0 2em;
+/*    border-radius: 5px;
+    background: #F5EFE3;
+    padding: 15px 12px 12px;*/
+    color:#FFF;
+}
+.widget-title {
+    font: normal 20px 'Kreon',serif;
+	line-height: 2.6em;
+    color: #AED9F8;
+}
+.widget ul {
+	font-size: 15px;
+	margin: 0;
+	list-style:none;
+}
+.widget ul ul {
+	margin-left: 1.5em;
+}
+.widget ul li {
+	color: #DDD;
+	font-size: 13px;
+}
+.widget a {
+	font-weight: bold;
+	text-decoration: none;
+    color:#FFF;
+}
+.widget a:hover,
+.widget a:focus,
+.widget a:active {
+	text-decoration: underline;
+}
+.widget .slogan {
+    font: 400 1.4em 'Kreon', sans-serif;
+    line-height: 130%;
+    color: #FFF;
+    margin-bottom: 0;
+}
+
+/* Search Widget */
+.widget_search form {
+	margin: 0 0 1.625em;
+}
+.widget_search #s {
+	width: 81%;
+}
+.widget_search #searchsubmit {
+	background: #ddd;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: inset 0px -1px 1px rgba(0, 0, 0, 0.09);
+	-moz-box-shadow: inset 0px -1px 1px rgba(0, 0, 0, 0.09);
+	box-shadow: inset 0px -1px 1px rgba(0, 0, 0, 0.09);
+	color: #888;
+	font-size: 13px;
+	line-height: 25px;
+	position: relative;
+	top: -2px;
+}
+.widget_search #searchsubmit:active {
+	background: #1982d1;
+	border-color: #0861a5;
+	-webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.1);
+	color: #bfddf3;
+}
+
+/* Ephemera Widget */
+section.ephemera ol,
+.widget_twentyeleven_ephemera ol {
+	list-style: square;
+	margin: 5px 0 0;
+}
+.widget_twentyeleven_ephemera .widget-entry-title {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0;
+}
+.widget_twentyeleven_ephemera .comments-link a,
+.widget_twentyeleven_ephemera .comments-link > span {
+	color: #666;
+	display: block;
+	font-size: 10px;
+	font-weight: 500;
+	line-height: 2.76333em;
+	text-transform: uppercase;
+}
+section.ephemera .entry-title .comments-link a:hover,
+.widget_twentyeleven_ephemera .entry-title .comments-link a:hover {
+}
+section.ephemera .entry-title a span {
+	color: #29628d;
+}
+
+/* Twitter */
+.widget_twitter li {
+	list-style-type: none;
+	margin-bottom: 14px;
+}
+.widget_twitter .timesince {
+	display: block;
+	font-size: 11px;
+	margin-right: -10px;
+	text-align: right;
+}
+
+/* Widget Image */
+.widget_image img {
+	height: auto;
+	max-width: 100%;
+}
+
+/* Calendar Widget */
+
+.widget_calendar #wp-calendar {
+	color: #555;
+	width: 95%;
+	text-align: center;
+}
+.widget_calendar #wp-calendar caption,
+.widget_calendar #wp-calendar td,
+.widget_calendar #wp-calendar th {
+	text-align: center;
+}
+.widget_calendar #wp-calendar caption {
+	font-size: 11px;
+	font-weight: 500;
+	padding: 5px 0 3px 0;
+	text-transform: uppercase;
+}
+.widget_calendar #wp-calendar th {
+	background: #f4f4f4;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+}
+.widget_calendar #wp-calendar tfoot td {
+	background: #f4f4f4;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.widget .buttons { list-style-type: none; margin-left:-4px; }
+.widget .buttons li a {
+    display: block;
+    font: 1.6em/2.6em Kreon, sans-serif;
+    text-decoration: none;
+    color: #FFF;
+    padding: 0 0 0 3.1em;
+}
+.widget .buttons a { background: url("http://files.dbrl.org/sites/kids/wp-content/uploads/icons2.png") no-repeat scroll 0 0 transparent; }
+.widget .buttons a.booklists { background-position: 0 0; }
+.widget .buttons a.homework { background-position: 0 -117px; }
+.widget .buttons a.kidscope { background-position: 0 -240px; }
+.widget .buttons a.tour { background-position: 0 -356px; }
+.widget .buttons a.websites { background-position: 0 -476px; }
+.widget .buttons a.funstuff { background-position: 0 -596px; }
+
+.widget .buttons a.booklists:hover { color:#FA973D;  }
+.widget .buttons a.homework:hover { color:#92BB3D; }
+.widget .buttons a.kidscope:hover { color:#FBEC2B;  }
+.widget .buttons a.tour:hover { color:#66CCFF; }
+.widget .buttons a.websites:hover { color: #C53C5C; /*color:#EA6A8A;*/ }
+.widget .buttons a.funstuff:hover { color:#CC94EB; }
+
+.widget .buttons a:hover { }
+
+.img-frame { border: 1px solid #AED9F8; }
+
