@@ -17,10 +17,10 @@
 #site-title a:hover,
 #site-title a:focus,
 #site-title a:active {
-	color: #1982d1;
+	color: $siteTitleColor;
 }
 #site-description {
-	color: #7a7a7a;
+	color: $siteDesc;
 	font-size: 14px;
 	margin: 0 270px 3.65625em 0;
 }

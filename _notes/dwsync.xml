@@ -3,14 +3,14 @@
 <file name="header.php" server="W:/kids.dbrl.org/www/" local="130119837260000000" remote="130119837260000000" Dst="2" />
 <file name="footer.php" server="W:/kids.dbrl.org/www/" local="130052514420000000" remote="130052514420000000" Dst="1" />
 <file name="style.css" server="W:/kids.dbrl.org/www/" local="129915075170000000" remote="129915075170000000" Dst="2" />
-<file name="style.scss" server="W:/kids.dbrl.org/www/" local="130148382665934190" remote="130148382660000000" Dst="2" />
+<file name="style.scss" server="W:/kids.dbrl.org/www/" local="130154609201350259" remote="130154609200000000" Dst="2" />
 <file name="_404.scss" server="W:/kids.dbrl.org/www/" local="130148374760688842" remote="130148374760000000" Dst="2" />
 <file name="_aside.scss" server="W:/kids.dbrl.org/www/" local="130148369532749818" remote="130148369530000000" Dst="2" />
 <file name="_attachment.scss" server="W:/kids.dbrl.org/www/" local="130148381359417440" remote="130148381350000000" Dst="2" />
 <file name="_content.scss" server="W:/kids.dbrl.org/www/" local="130148368536677048" remote="130148368530000000" Dst="2" />
 <file name="_gallery.scss" server="W:/kids.dbrl.org/www/" local="130148371373885422" remote="130148371370000000" Dst="2" />
 <file name="_global.scss" server="W:/kids.dbrl.org/www/" local="130148364566894154" remote="130148364560000000" Dst="2" />
-<file name="_header.scss" server="W:/kids.dbrl.org/www/" local="130148366136742280" remote="130148366130000000" Dst="2" />
+<file name="_header.scss" server="W:/kids.dbrl.org/www/" local="130150115937508872" remote="130150115930000000" Dst="2" />
 <file name="_image.scss" server="W:/kids.dbrl.org/www/" local="130148373239669342" remote="130148373230000000" Dst="2" />
 <file name="_link.scss" server="W:/kids.dbrl.org/www/" local="130148370774369736" remote="130148370770000000" Dst="2" />
 <file name="_menu.scss" server="W:/kids.dbrl.org/www/" local="130148367102862666" remote="130148367100000000" Dst="2" />
@@ -21,4 +21,10 @@
 <file name="_structure.scss" server="W:/kids.dbrl.org/www/" local="130148361376653254" remote="130148361370000000" Dst="2" />
 <file name="_widget.scss" server="W:/kids.dbrl.org/www/" local="130148382796195860" remote="130148382790000000" Dst="2" />
 <file name="_quote.scss" server="W:/kids.dbrl.org/www/" local="130149165175443003" remote="130149165170000000" Dst="2" />
+<file name="_colors.scss" server="W:/kids.dbrl.org/www/" local="130150117572253830" remote="130150117570000000" Dst="2" />
+<file name="_comments.scss" server="W:/kids.dbrl.org/www/" local="130148479313073240" remote="130148479310000000" Dst="2" />
+<file name="_footer.scss" server="W:/kids.dbrl.org/www/" local="130148480931125984" remote="130148480930000000" Dst="2" />
+<file name="_responsive.scss" server="W:/kids.dbrl.org/www/" local="130148542927256796" remote="130148542920000000" Dst="2" />
+<file name="_print.scss" server="W:/kids.dbrl.org/www/" local="130148545278518940" remote="130148545270000000" Dst="2" />
+<file name="style2.css" server="W:/kids.dbrl.org/www/" local="130150118460000000" remote="130150118460000000" Dst="2" />
 </dwsync>
